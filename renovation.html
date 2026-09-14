@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=10">
+<link rel="stylesheet" href="assets/css/style.css?v=11">
 <noscript><style>.reveal{opacity:1;transform:none}.hero h1 .ln > span{transform:none}.hero-sub,.hero-cta,.hero-note,.scroll-cue{opacity:1}</style></noscript>
 </head>
 <body>
@@ -48,6 +48,7 @@
 
 <!-- ================= PAGE HERO ================= -->
 <section class="page-hero">
+  <div class="hero-photo" aria-hidden="true"><img src="assets/img/photos/worker-on-site.jpg" alt="" loading="eager"></div>
   <div class="hero-grid" aria-hidden="true"></div>
   <div class="hero-sweep" aria-hidden="true"></div>
   <div class="hero-noise" aria-hidden="true"></div>
@@ -80,17 +81,9 @@
       </div>
     </div>
     <div class="split-media reveal corner-frame" data-d="2" data-parallax="0.04">
-      <div class="art-panel" role="img" aria-label="Line-art illustration of a house under renovation">
-        <svg class="blueprint" viewBox="0 0 200 150" aria-hidden="true">
-          <path d="M20 75 L100 20 L180 75"/>
-          <path d="M35 70 V135 H165 V70"/>
-          <path d="M85 135 V95 H115 V135"/>
-          <path d="M50 85 H72 V105 H50 Z M128 85 H150 V105 H128 Z"/>
-          <path d="M60 47 l30 -20 M140 47 l-30 -20"/>
-          <circle cx="110" cy="116" r="1.6"/>
-          <path d="M12 135 H188" stroke-dasharray="4 5"/>
-        </svg>
-        <span class="ph-tag">Completed-project photography</span>
+      <div class="art-panel" role="img" aria-label="Kitchen renovation with open shelving and tile wall">
+        <img class="art-photo" src="assets/img/photos/kitchen-detail-shelving.jpg" alt="Kitchen renovation with open shelving, white tile and copper fixtures" loading="lazy">
+        <span class="ph-tag">Kitchen renovation — finished shelving</span>
       </div>
     </div>
   </div>
@@ -104,7 +97,17 @@
       <h2>Core Residential Services</h2>
       <p>We coordinate focused improvements and complete renovations with the same care, whether the project is small or large.</p>
     </div>
-    <ul class="list-check list-2col reveal" data-d="2">
+    <div class="photo-strip reveal" data-d="2" style="margin-bottom:clamp(30px,4vw,52px)">
+      <figure class="pw">
+        <img src="assets/img/photos/painter-wall.jpg" alt="Painter rolling fresh paint on an interior wall" loading="lazy">
+        <figcaption class="cap">Painting &amp; finishing — the small jobs we do every week</figcaption>
+      </figure>
+      <figure class="pw">
+        <img src="assets/img/photos/bathroom-tile-work.jpg" alt="Bathroom renovation in progress with tile work and fixtures" loading="lazy">
+        <figcaption class="cap">Bathroom renovation — mid-project</figcaption>
+      </figure>
+    </div>
+    <ul class="list-check list-2col reveal" data-d="3">
       <li>Bathroom renovation</li>
       <li>Kitchen renovation</li>
       <li>Basement finishing and renovation</li>
@@ -131,10 +134,20 @@
       <h2>How big jobs run: <span class="gold">one coordinator, start to close</span></h2>
       <p>We start with an on-site assessment and a budget. Then we prepare the drawings, apply for the permits, schedule the trades and order the materials. One coordinator supervises the work on site until the final walkthrough and closeout.</p>
     </div>
+    <div class="photo-strip reveal" data-d="1" style="margin-bottom:clamp(30px,4vw,52px)">
+      <figure class="pw">
+        <img src="assets/img/photos/construction-toronto-1.jpg" alt="Multi-storey construction site in Toronto" loading="lazy">
+        <figcaption class="cap">Larger coordinated projects, managed start to close</figcaption>
+      </figure>
+      <figure class="pw">
+        <img src="assets/img/photos/work-crew-site.jpg" alt="Crew working on a site with equipment" loading="lazy">
+        <figcaption class="cap">Trades scheduled and supervised on site</figcaption>
+      </figure>
+    </div>
     <div class="grid steps-5 cols-3">
-      <div class="hw-step reveal" data-d="1"><h3>Assess and price it</h3><p>Property and project assessment · scope development and budgeting · design / drawing coordination.</p></div>
-      <div class="hw-step reveal" data-d="2"><h3>Schedule the trades</h3><p>Permit coordination when required · trade scheduling and supervision · material and finish coordination.</p></div>
-      <div class="hw-step reveal" data-d="3"><h3>Build, inspect, close out</h3><p>Construction management · quality-control walkthrough · project closeout.</p></div>
+      <div class="hw-step reveal" data-d="2"><h3>Assess and price it</h3><p>Property and project assessment · scope development and budgeting · design / drawing coordination.</p></div>
+      <div class="hw-step reveal" data-d="3"><h3>Schedule the trades</h3><p>Permit coordination when required · trade scheduling and supervision · material and finish coordination.</p></div>
+      <div class="hw-step reveal" data-d="4"><h3>Build, inspect, close out</h3><p>Construction management · quality-control walkthrough · project closeout.</p></div>
     </div>
     <div class="btn-row reveal" style="margin-top:3em; justify-content:center">
       <a class="btn btn-gold" href="contact.html">Plan a Larger Project</a>
@@ -200,13 +213,16 @@
     <p class="foot-broker">Boussari Development provides construction, renovation and project-coordination services. Real estate brokerage services are provided separately by Hamid M. Boussari, Salesperson, RE/MAX Your Community Realty, Brokerage · 15004 Yonge St, Aurora, ON L4G 1M6 · 905-727-3154. Registered with the Real Estate Council of Ontario (RECO) under the Trust in Real Estate Services Act, 2002 (TRESA). Financing is subject to lender approval and terms; no financing, rent, value increase or investment return is guaranteed.</p>
     <div class="foot-bottom">
       <p>© <span data-year>2026</span> Boussari Development. All rights reserved.</p>
-      <p>boussaridevelopment.com</p>
+      <p>boussaridevelopment.com</p>`n      <p><a href="credits.html" class="foot-photos">Photography credits</a> — open-content licenses</p>
     </div>
   </div>
 </footer>
 
 <a class="callbar" href="tel:+14169300400">Call 416-930-0400 · 24/7 Service</a>
 
-<script src="assets/js/main.js?v=10"></script>
+<script src="assets/js/main.js?v=11"></script>
 </body>
 </html>
+
+
+
